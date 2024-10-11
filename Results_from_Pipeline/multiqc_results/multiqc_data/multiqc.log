@@ -1,0 +1,2 @@
+[2024-10-07 10:28:49,192] multiqc.core.file_search                           [INFO   ]  Search path: /home/Ashutosh.Yadav/Strandls/Project Toxic/NexflowPipeline/work/4e/cb80c38d6a936018d3add78f2e5532
+[2024-10-07 10:28:49,251] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports

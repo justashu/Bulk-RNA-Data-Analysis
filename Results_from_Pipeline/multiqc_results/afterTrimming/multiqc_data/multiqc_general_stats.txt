@@ -1,0 +1,3 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+trimmed_ggal_gut_1	13.963181660298716	45.0	102.98141715873567	104	20.0	0.002879
+trimmed_ggal_gut_2	14.067384508509889	45.0	102.76398054880167	104	30.0	0.002879

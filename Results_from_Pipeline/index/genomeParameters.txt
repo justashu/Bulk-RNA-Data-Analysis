@@ -1,0 +1,19 @@
+### /home/Ashutosh.Yadav/anaconda3/envs/starAligner/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 16   --genomeDir index   --genomeFastaFiles ggal_1_48850000_49020000.Ggal71.500bpflank.fa      --genomeSAindexNbases 12   --sjdbGTFfile ggal_1.gtf   --sjdbOverhang 100
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	ggal_1_48850000_49020000.Ggal71.500bpflank.fa 
+genomeSAindexNbases	12
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	ggal_1.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	271591 1488312

@@ -1,0 +1,3 @@
+Sample	Unique Reads	Duplicate Reads
+trimmed_ggal_gut_1	2477.0	402.0
+trimmed_ggal_gut_2	2475.0	404.0

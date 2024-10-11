@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	trimmed_ggal_gut_2	/home/Ashutosh.Yadav/Strandls/Project Toxic/NexflowPipeline/work/40/48779aa66c4276874aed587f02228c/trimmed_ggal_gut_2_fastqc.zip
+FastQC	all_sections	trimmed_ggal_gut_1	/home/Ashutosh.Yadav/Strandls/Project Toxic/NexflowPipeline/work/40/48779aa66c4276874aed587f02228c/trimmed_ggal_gut_1_fastqc.zip
