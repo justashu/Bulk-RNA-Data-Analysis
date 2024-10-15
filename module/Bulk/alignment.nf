@@ -14,10 +14,15 @@ process alignment {
 
     script:
     """
+	STAR --runThreadN 16 \
+        --genomeDir $index_dir \
+        --readFilesIn ${fastqFiles[0]} \
+        --outSAMtype BAM SortedByCoordinate \
+        --outFileNamePrefix ${sample}1.
     STAR --runThreadN 16 \
-         --genomeDir $index_dir \
-         --readFilesIn ${fastqFiles[0]} ${fastqFiles[1]} \
-         --outSAMtype BAM SortedByCoordinate \
-         --outFileNamePrefix ${sample}.
+        --genomeDir $index_dir \
+        --readFilesIn ${fastqFiles[1]} \
+        --outSAMtype BAM SortedByCoordinate \
+        --outFileNamePrefix ${sample}2.
     """
 }

@@ -9,6 +9,7 @@ include { fastqc_forTrimming} from './module/Bulk/fastqc_forTrimming'
 include { multiqc } from './module/Bulk/multiqc'
 include { multiqc_forTrimming} from './module/Bulk/multiqc_forTrimming'
 include { trimmomatic } from './module/Bulk/trimmomatic'
+include { bamqc } from './module/Bulk/bamqc'
 
 workflow {
     // 1. Indexing step
@@ -33,7 +34,7 @@ workflow {
     else {
         alignment(index_dir, fastqFiles).set { bam }
     }
-
+    bamqc(bam)
     // 7. Generate count matrix using the BAM files and the GTF
     generateCountMatrix(bam, params.gtf).set { countMatrix }
 
