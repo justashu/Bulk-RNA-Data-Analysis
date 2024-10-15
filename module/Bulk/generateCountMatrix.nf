@@ -11,6 +11,6 @@ process generateCountMatrix {
 
     script:
     """
-    featureCounts -T 16 -p -a $gtf -o counts.txt $bam_file
+    featureCounts -T 16 -a $gtf -o counts.txt $bam_file
     """
 }

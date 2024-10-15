@@ -10,7 +10,7 @@ process alignment {
     // index_dir -> the index directory from the previous step
 
     output:
-    path "${sample}.Aligned.sortedByCoord.out.bam"
+    path "${sample}*.Aligned.sortedByCoord.out.bam"
 
     script:
     """

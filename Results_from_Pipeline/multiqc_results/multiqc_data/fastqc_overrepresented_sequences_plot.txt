@@ -1,3 +1,0 @@
-Sample	Top overrepresented sequence	Sum of remaining overrepresented sequences
-ggal_gut_1	0.34048348655090227	9.499489274770173
-ggal_gut_2	0.37453183520599254	8.85257065032346

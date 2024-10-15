@@ -1,0 +1,16 @@
+# Ignore .nextflow folder
+.nextflow*
+work/*
+
+# Ignore everything in the results folder
+Results_from_Pipeline/*
+
+# Ignore .bam files in the alignments folder
+alignments/*.bam
+
+# Ignore FASTQ files in the data folder
+Data/*
+
+# Ignore all log files
+*.log*
+*.pdf
